@@ -1,0 +1,14 @@
+server:
+  port : 9000
+  
+service:
+  data: 
+    -
+      name: service1
+      host: localhost:7008/geturl/getData
+      json: provided2
+    -
+      name: dataShare3
+      host: localhost3
+      json: provided3
+      
