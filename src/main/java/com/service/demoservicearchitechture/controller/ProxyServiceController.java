@@ -18,7 +18,7 @@ public class ProxyServiceController {
 		if(service.equalsIgnoreCase("hello")) {
 			System.err.println(multiService.toString());
 		}
-		return "Hello";
+		return "Hello World";
 	}
 
 }
